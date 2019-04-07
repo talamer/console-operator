@@ -23,7 +23,7 @@ spec:
       serviceAccountName: console-operator
       containers:
       - name: console-operator
-        image: quay.io/redhat-developer/console:latest
+        image: quay.io/redhat-developer/console-operator:latest
         ports:
         - containerPort: 60000
           name: metrics
