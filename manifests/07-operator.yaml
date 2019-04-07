@@ -41,7 +41,7 @@ spec:
           name: config
         env:
         - name: IMAGE
-          value: docker.io/openshift/origin-console:latest
+          value: quay.io/redhat-developer/console:latest
         - name: RELEASE_VERSION
           value: "0.0.1-snapshot"
         - name: OPERATOR_NAME
